@@ -77,8 +77,8 @@ mindmap
 
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)]()
 [![Windows](https://custom-icon-badges.demolab.com/badge/Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white)]()
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
-[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)]()
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/playlist?list=PL9V4Zu3RroiWPrvxLCAOcMmrp4hJAQzKl&si=eyRgwKrdgpFJEsWd)
+[![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/CyberNews/new/)
 
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
@@ -88,6 +88,62 @@ mindmap
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
+
+```mermaid
+flowchart TD
+
+    A[Cybersecurity Fundamentals]
+    B[Threat Modeling]
+    C[MITRE ATT&CK Introduction]
+
+    A --> B
+    B --> C
+
+    C --> D[Tactics]
+    C --> E[Techniques]
+    C --> F[Sub-techniques]
+
+    D --> G[Initial Access]
+    D --> H[Execution]
+    D --> I[Persistence]
+    D --> J[Privilege Escalation]
+    D --> K[Defense Evasion]
+    D --> L[Credential Access]
+    D --> M[Discovery]
+    D --> N[Lateral Movement]
+    D --> O[Collection]
+    D --> P[Command and Control]
+    D --> Q[Exfiltration]
+    D --> R[Impact]
+
+    G --> S[ATT&CK Navigator]
+    H --> S
+    I --> S
+    J --> S
+
+    S --> T[Threat Intelligence Mapping]
+    T --> U[APT Groups Analysis]
+    T --> V[Malware Analysis]
+
+    U --> W[Detection Engineering]
+    V --> W
+
+    W --> X[Sigma Rules]
+    W --> Y[YARA Rules]
+    W --> Z[SIEM Detection]
+
+    X --> AA[Purple Teaming]
+    Y --> AA
+    Z --> AA
+
+    AA --> AB[Atomic Red Team]
+    AA --> AC[MITRE CALDERA]
+
+    AB --> AD[Gap Analysis]
+    AC --> AD
+
+    AD --> AE[Advanced ATT&CK Research]
+```
 
 ## 📖 Contents
 - [My Other Awesome Lists](#my-other-awesome-lists)
